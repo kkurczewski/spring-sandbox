@@ -1,0 +1,10 @@
+cloud-property: cloud
+remote-property: cloud
+
+spring:
+  cloud:
+    config:
+      override-system-properties: false
+
+server:
+  port: 1234

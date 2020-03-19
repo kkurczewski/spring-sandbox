@@ -1,0 +1,5 @@
+spring:
+  config:
+    name: configserver    # use default config-server properties
+  profiles:
+    active: native        # enable sources directly from file system

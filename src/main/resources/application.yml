@@ -1,0 +1,4 @@
+remote-property: local
+local-property: local   # this property is not counted as system property
+
+# add -Dserver.port=8081 to try behaviour of system properties

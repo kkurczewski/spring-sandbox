@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'com.example'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.cloud:spring-cloud-config-server:2.2.0.RELEASE'
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.2.2.RELEASE'
+}
